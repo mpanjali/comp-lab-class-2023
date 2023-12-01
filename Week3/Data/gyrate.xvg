@@ -1,0 +1,28 @@
+# This file was created Tue Nov 28 00:45:29 2023
+# Created by:
+#                      :-) GROMACS - gmx gyrate, 2023.3 (-:
+# 
+# Executable:   /ext3/apps/gromacs/2023.3/openmpi/intel/bin/gmx_mpi
+# Data prefix:  /ext3/apps/gromacs/2023.3/openmpi/intel
+# Working dir:  /home/mp6576/comp-class-2023/comp-lab-class-2023/Week3/Data
+# Command line:
+#   gmx_mpi gyrate -s md_0_1.tpr -f md_0_1_noPBC.xtc -o gyrate.xvg
+# gmx gyrate is part of G R O M A C S:
+#
+# Great Red Owns Many ACres of Sand 
+#
+@    title "Radius of gyration (total and around axes)"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "Rg (nm)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Rg"
+@ s1 legend "Rg\sX\N"
+@ s2 legend "Rg\sY\N"
+@ s3 legend "Rg\sZ\N"
+         0     1.41028     1.20564      1.0331     1.20703

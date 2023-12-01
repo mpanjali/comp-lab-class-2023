@@ -1,0 +1,19 @@
+# This file was created Tue Nov 28 00:42:47 2023
+# Created by:
+#                       :-) GROMACS - gmx rms, 2023.3 (-:
+# 
+# Executable:   /ext3/apps/gromacs/2023.3/openmpi/intel/bin/gmx_mpi
+# Data prefix:  /ext3/apps/gromacs/2023.3/openmpi/intel
+# Working dir:  /home/mp6576/comp-class-2023/comp-lab-class-2023/Week3/Data
+# Command line:
+#   gmx_mpi rms -s md_0_1.tpr -f md_0_1_noPBC.xtc -o rmsd.xvg -tu ns
+# gmx rms is part of G R O M A C S:
+#
+# Getting the Right Output Means no Artefacts in Calculating Stuff
+#
+@    title "RMSD"
+@    xaxis  label "Time (ns)"
+@    yaxis  label "RMSD (nm)"
+@TYPE xy
+@ subtitle "Backbone after lsq fit to Backbone"
+   0.0000000    0.0004952
