@@ -1,0 +1,6 @@
+Update the package index:
+# sudo apt-get update
+Install netpbm deb package:
+# sudo apt-get install netpbm
+
+ffmpeg -i untitled.mpg output.mp4

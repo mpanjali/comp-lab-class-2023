@@ -1,0 +1,5 @@
+MOLINFO STRUCTURE=dialaB.pdb 
+phi: TORSION ATOMS=5,7,9,15 
+psi: TORSION ATOMS=7,9,15,17  
+metad: METAD ARG=phi,psi SIGMA=0.13,0.34 PACE=500 HEIGHT=1.2 BIASFACTOR=10 FILE=12.adp_basinB_biasfactor10_pace500_height1.2_sigma0.13_0.34_2d_metad_10ns.hills.txt GRID_MIN=-pi,-pi GRID_MAX=pi,pi GRID_WFILE=12.adp_basinB_biasfactor10_pace500_height1.2_sigma0.13_0.34_2d_metad_10ns.grid.dat GRID_WSTRIDE=10000
+PRINT ARG=phi,psi,metad.bias FILE=12.adp_basinB_biasfactor10_pace500_height1.2_sigma0.13_0.34_2d_metad_10ns.colvar.txt STRIDE=10
